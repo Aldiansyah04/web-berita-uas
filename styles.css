@@ -116,6 +116,11 @@ footer {
     padding: 10px 0;
 }
 
+footer hr {
+    margin: 0;
+    border: none;
+    border-top: 5px solid #000;
+}
 footer p {
     margin: 0;
     padding: 0;
