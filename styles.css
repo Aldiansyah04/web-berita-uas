@@ -97,10 +97,27 @@ body {
 .berita1{
     text-align: center;
 }
+
 .img {
     width: 100%; /* Gambar mengisi 100% dari elemen induknya */
     max-width: 800px; /* Batas lebar maksimal */
     height: auto; /* Menjaga rasio aspek gambar */
     display: block;
     margin: 20px auto; /* Pusatkan gambar secara horizontal dengan margin otomatis */
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
 }
